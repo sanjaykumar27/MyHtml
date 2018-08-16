@@ -1,0 +1,370 @@
+
+/* these below codes are the custom code that are being modified for the original bootstrap css */
+
+html,body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #efefef;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+/* alert **************************/
+.alert{
+	border-radius: 0px;
+	font-weight: 300;
+}
+.alert-primary{
+	color: #ffffff;
+    background-color: #3c76b3;
+	border: none;
+}
+.alert-secondary{
+	color: #000;
+    background-color: #d6d6d6;
+	border: none;
+}
+.alert-success{
+	color: #fff;
+    background-color: #4bcea4;
+	border: none;
+}
+.alert-danger{
+	color: #fff;
+    background-color: #dc8c94;
+	border: none;
+}
+.alert-warning{
+	color: #000;
+	background-color: #efd993;
+	border: none;
+}
+.alert-info{
+	color: #000;
+	background-color: #7dd8e9;
+	border: none;
+}
+.alert-light{
+	color: #000;
+	background-color: #f3f2f2;
+	border: none;
+}
+
+.alert-dark{
+	color: #fff;
+	background-color: #515659;
+	border: none;
+}
+.alert-primary .alert-link {
+	color: #ffffff;
+}
+.alert-success .alert-link {
+	color: #ffffff;
+}
+.alert-danger .alert-link {
+	color: #ffffff;
+}
+.alert-dark .alert-link {
+	color: #ffffff;
+}
+
+/*** BADGE **********************************/
+.badge{
+	
+	font-weight: 400;
+	padding: 8px;
+}
+
+/****** breadcrumb ************************/
+.breadcrumb{
+	border-radius: 0px;
+}
+.breadcrumb-item{
+	
+}
+
+@media (min-width: 576px) { 
+	
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+	
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+	
+}
+
+
+
+
+a, a:hover, a:focus {
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.navbar {
+	padding: 15px 10px;
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 5px;
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08)
+}
+
+.navbar-btn {
+	box-shadow: none;
+	outline: none !important;
+	border: none;
+}
+
+.line {
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px dashed #ddd;
+	margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+	SIDEBAR STYLE
+----------------------------------------------------- */
+.container-fluid{
+	padding:0px;
+}
+
+.wrapitems {
+	display: flex;
+}
+
+
+#sidemenubar {
+	min-width: 280px;
+	max-width: 280px;
+	background: #2C313D;
+	color: #fff;
+	transition: all 0.4s cubic-bezier(0.725, 0.010, 0.420, 0.235);
+	transform-origin: bottom left;
+	height: 800px;
+	overflow: auto;
+}
+
+#sidemenubar ul li {
+	border-bottom: 1px solid #6b6b6b;
+}
+
+#sidemenubar ul li ul li {
+	border-bottom: 1px solid #6b6b6b;
+}
+
+#sidemenubar.active {
+	margin-left: -280px;
+}
+
+#sidemenubar .sidebar-header {
+	padding: 14px;
+	background: #256fb1;
+	text-align: center;
+}
+
+#sidemenubar ul.components {
+	margin-top: 66px;
+	padding: 20px 0;
+	
+}
+
+#sidemenubar ul p {
+	color: #fff;
+	padding: 10px;
+}
+
+.sidebar-header p img {
+	height: 110px;
+	padding: 4px;
+	border: 2px solid #efefef;
+	border-radius: 60px;
+}
+.sidebar-header p{
+	margin-bottom: -66px;
+}
+.sidebar-header h2{
+	font-family: 'Allura', cursive;
+}
+
+#sidemenubar ul li a {
+	padding: 10px;
+	font-weight: 300;
+	display: block;
+	padding-left: 20px;
+	
+}
+#sidemenubar ul li a:hover {
+	color: #fff;
+	background: #444757;
+}
+
+#sidemenubar ul li.active > a, a[aria-expanded="true"] {
+	color: #fff;
+	background: #444757;
+	border-left: 3px solid #ffe843;
+}
+
+
+a[data-toggle="collapse"] {
+	position: relative;
+}
+
+.dropdown-toggle::after {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+}
+
+ul ul a {
+	font-size: 0.9em !important;
+	padding-left: 30px !important;
+	background: #333;
+}
+
+ul.CTAs {
+	padding: 20px;
+}
+
+ul.CTAs a {
+	text-align: center;
+	font-size: 0.9em !important;
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+a.download {
+	background: #fff;
+	color: #7386D5;
+}
+
+a.article, a.article:hover {
+	background: #6d7fcc !important;
+	color: #fff !important;
+}
+
+
+
+/* ---------------------------------------------------
+	CONTENT STYLE
+----------------------------------------------------- */
+.mn-pad{
+	padding: 40px;
+}
+#content {
+	width: 100%;
+	min-height: 100vh;
+	padding-top: 0px;
+	transition: all 0.3s;
+}
+
+
+
+#sidebarCollapse {
+	width: 40px;
+	height: 40px;
+	background: #f5f5f5;
+	cursor: pointer;
+}
+
+#sidebarCollapse span {
+	width: 80%;
+	height: 2px;
+	margin: 0 auto;
+	display: block;
+	background: #555;
+	transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+	transition-delay: 0.2s;
+}
+
+#sidebarCollapse span:first-of-type {
+	transform: rotate(45deg) translate(2px, 2px);
+}
+#sidebarCollapse span:nth-of-type(2) {
+	opacity: 0;
+}
+#sidebarCollapse span:last-of-type {
+	transform: rotate(-45deg) translate(1px, -1px);
+}
+
+
+#sidebarCollapse.active span {
+	transform: none;
+	opacity: 1;
+	margin: 5px auto;
+}
+
+
+/* ---------------------------------------------------
+	MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+	#sidemenubar {
+		margin-left: -280px;
+		transform: rotateY(90deg);
+	}
+	#sidemenubar.active {
+		margin-left: 0;
+		transform: none;
+	}
+	#sidebarCollapse span:first-of-type,
+	#sidebarCollapse span:nth-of-type(2),
+	#sidebarCollapse span:last-of-type {
+		transform: none;
+		opacity: 1;
+		margin: 5px auto;
+	}
+	
+	#sidebarCollapse.active span {
+		margin: 0 auto;
+	}
+	
+	#sidebarCollapse.active span:first-of-type {
+		transform: rotate(45deg) translate(2px, 2px);
+	}
+	#sidebarCollapse.active span:nth-of-type(2) {
+		opacity: 0;
+	}
+	#sidebarCollapse.active span:last-of-type {
+		transform: rotate(-45deg) translate(1px, -1px);
+	}
+	
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 11px;
+	margin: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1d5c94; 
+	
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #efefef; 
+	width: 15px;
+	
+}
